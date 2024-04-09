@@ -1,13 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Title of the document</title>
-</head>
-
-<body>
-  <h1>Hello, I'm Keith</h1>
-  <p><a href="https://keithgreer.dev/">keithgreer.dev</a></p>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name='robots' content='noindex,nofollow'>
+    <title>Hello, I'm Keith</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              black: '#2B2B2B',
+              blue: '#0070c0',
+              yellow: '#ffc82c',
+              white: '#fafafa'
+            }
+          }
+        }
+      }
+    </script>
+    </head>
+    <body class="bg-white">
+  
+  <div class="container mx-auto max-w-xl p-5">
+    
+    <h1 class="text-blue mt-10 font-light text-6xl">
+      <span>Hello, I'm </span><span class="font-normal">Keith</span>
+    </h1>
+    
+    <p class="text-black my-10">
+      I'm a tea drinking <a href="https://keithgreer.dev">web developer</a> in Belfast, Northern Ireland. Focusing mostly on PHP, WordPress and ecommerce projects. If there's a project I can help
+      you with <a href="https://keithgreer.dev/contact/">get in touch</a>. 
+    
+    </p>
+ 
+    
+    <ul class="arrows text-xl">
+    <li>
+    <a href="https://keithgreer.dev/blog/" target="_blank" >
+    Blog
+    </a>
+    </li>
+    <li>
+    <a href="https://bsky.app/profile/keithology.bsky.social" target="_blank" >
+    Bluesky
+    </a>
+    </li>
+    <li>
+    <a href="https://instagram.com/keithgreer.dev" target="_blank">
+    Instagram
+    </a>
+    </li>
+    <li>
+    <a href="https://threads.net/@the.keith" target="_blank" >
+    Threads
+    </a>
+    </li>
+    <li>
+    <a href="https://x.com/keithgreerdev" target="_blank">
+    Twitter
+    </a>
+    </li>
+    
+    </ul>
+    <p>&nbsp;</p>
+  </div>
+  
+  
+      <style>
+      .arrows li::before {
+        content: "‒";
+        color: #0070c0;
+      }
+      a {
+         color:#2B2B2B; 
+         text-decoration:underline;
+         text-decoration-color:#0070c0; 
+         text-decoration-thickness: 1px;
+      }
+      a:hover {
+         text-decoration-thickness: 2px;
+      }
+    </style>
+  
+  
 </body>
-
 </html>
