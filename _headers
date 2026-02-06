@@ -3,7 +3,7 @@
  X-HELLO: Made in Belfast by Keith Greer
  X-Frame-Options: DENY
  X-XSS-Protection: 1; mode=block
- Access-Control-Allow-Origin: https://keithgreer.dev
+ Access-Control-Allow-Origin: https://keithology.me
  X-Content-Type-Options: nosniff
  Referrer-Policy: strict-origin
  Permissions-Policy: fullscreen=(self)
