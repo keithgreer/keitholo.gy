@@ -38,6 +38,12 @@ h1 strong {
   font-weight:normal;
 }
 
+h2 {
+  font-size:2rem; 
+  font-weight:lighter;
+  color:#0070c0;
+}
+
 p {
   min-height: 5vh;
   font-size: 1.125rem;
