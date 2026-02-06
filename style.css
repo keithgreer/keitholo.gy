@@ -20,10 +20,10 @@ body {
 
 .envlope {
   padding: 1.25rem;
-  padding-top: 35vh;
+  padding-top: 25vh;
   padding-bottom: 15vh;
   width: 100%;
-  max-width: 20rem;
+  max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,7 +50,7 @@ ul li {
   margin: 0.25em 0; 
 }
 
-.arrows li::before {
+li::before {
   content: "‒";
   color: #0070c0;
 }
