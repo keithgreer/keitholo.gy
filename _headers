@@ -7,7 +7,7 @@
  X-Content-Type-Options: nosniff
  Referrer-Policy: strict-origin
  Permissions-Policy: fullscreen=(self)
- Content-Security-Policy: base-uri 'self'; default-src https://*.fontawesome.com;style-src 'self'; script-src https://*.simpleanalyticscdn.com; img-src 'self' https://*.simpleanalyticscdn.com;
+ Content-Security-Policy: base-uri 'self'; default-src https://*.fontawesome.com; style-src 'self'; script-src 'self' https://*.fontawesome.com https://*.simpleanalyticscdn.com; img-src 'self' https://*.simpleanalyticscdn.com;
 
 
 /*.css
