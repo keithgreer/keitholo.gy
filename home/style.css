@@ -139,6 +139,16 @@ a.button {
     margin-bottom: 0.5rem
 }
 
+a.button.inline {
+    background: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #0070c0;
+    margin-bottom: 0.5rem
+}
+
 a.button:hover {
     background: #0070c0;
     color: #ffffff;
