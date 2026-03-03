@@ -67,7 +67,7 @@ body {
   clear:both;
   margin:1rem;
   padding:0.5rem 1rem;
-  background:#0070c0;
+  background:#555555;
   border-radius: 10px;
   color:#ffffff;
 }
@@ -75,7 +75,7 @@ body {
 h1 {
   font-size:4rem;
   font-weight:lighter;
-  color:#0070c0;
+  color:#555555;
   margin:0;
 }
 
@@ -86,7 +86,7 @@ h1 strong {
 h2 {
   font-size:1.5rem;
   font-weight: normal;
-  color:#0070c0;
+  color:#555555;
   margin:0.5rem 1rem;
 }
 
@@ -113,7 +113,7 @@ ul li {
 
 ul.list-dash li::before {
   content: "‒";
-  color: #0070c0;
+  color: #555555;
 }
 
 .font-bold {
@@ -143,11 +143,11 @@ a.button {
   display:block;
   padding:0.5rem 1rem;
   border-radius: 10px;
-  color:#0070c0;
+  color:#555555;
   margin-bottom:0.5rem
 }
 a.button:hover {
-  background:#0070c0;
+  background:#555555;
   color:#ffffff;
 }
 
