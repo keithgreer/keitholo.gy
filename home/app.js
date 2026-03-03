@@ -64,10 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
         greetingElement.textContent = getGreeting(); // id="greeting"
     }
     displayCurrentDate("current-date"); // id="current-date"
-});
 
-// id="current-time"
-document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById('duckduckgo').focus();
+
     displayCurrentTime("current-time"); // run immediately
     setInterval(function () {
         displayCurrentTime("current-time");
