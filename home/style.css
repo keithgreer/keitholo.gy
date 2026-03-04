@@ -2,8 +2,10 @@
     background: #0070c0;
 }
 
-h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover  {
+h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator {
     color: #0070c0;
 }
 
-.button { border:1px solid #f3f5f1;}
+span.seperator {
+    border-color:#0070c0;
+}

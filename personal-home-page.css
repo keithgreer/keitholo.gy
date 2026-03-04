@@ -73,6 +73,8 @@ body {
     color: #ffffff;
 }
 
+
+
 h1 {
     font-size: 2.25rem;
     font-weight: lighter;
@@ -134,6 +136,22 @@ p a:hover, ul.list-dash a:hover {
     text-decoration-color: rgba(0, 112, 192, 1);
 }
 
+span.seperator {
+    background: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    border-top:1px solid #000000;
+    border-left:3px solid #000000;
+    border-bottom:1px solid #000000;
+    font-weight:bold;
+}
+span.seperator::after{
+    content: " →";
+}
+
 a.button {
     background: #fff;
     text-decoration: none;
@@ -141,7 +159,8 @@ a.button {
     padding: 0.5rem 1rem;
     border-radius: 10px;
     color: #000000;
-    margin-bottom: 0.5rem
+    margin-bottom: 0.5rem;
+    border:1px solid #f3f5f1;
 }
 
 a.button.inline {
