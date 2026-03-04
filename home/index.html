@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-   <!-- keithology.me/home/ -->
-   <script defer src="app.js"></script>
+   <script defer src="../personal-home-page.js"></script>
    <meta charset="UTF-8">
    <title>Homepage</title>
    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=3.0">
@@ -12,12 +11,12 @@
 </head>
 <body>
 <div class="date-time">
-   <span id="current-date"></span>
-   <span id="current-time"></span>
+   <span id="current-date">&nbsp;</span>
+   <span id="current-time">&nbsp;</span>
 </div>
 <div class="envlope" role="main">
    <div class="paper">
-      <h1 id="greeting">Hello</h1>
+      <h1 id="greeting">&nbsp;</h1>
    </div>
    <form method="get" id="search" class="search" action="https://duckduckgo.com/">
       <input type="hidden" name="kl" value="uk-en">
@@ -26,7 +25,7 @@
       <input id="duckduckgo" type="text" name="q" maxlength="255" placeholder="DuckDuckGo Search&hellip;">
       <input type="submit" value="DuckDuckGo Search">
    </form>
-   <div class="paper">
+   <div class="paper toplinks">
       <a href="https://reddit.com/" class="button inline">
          <i class="fa-brands fa-reddit"></i> Reddit
       </a>
@@ -144,13 +143,8 @@
                </a>
             </li>
             <li>
-               <a href="https://www.theguardian.com/tone/news" class="button">
-                  <i class="fa-solid fa-g"></i> The Guardian
-               </a>
-            </li>
-            <li>
-               <a href="https://observer.co.uk" class="button">
-                  <i class="fa-solid fa-o"></i> The Observer
+               <a href="https://theregister.com" class="button">
+                  <i class="fa-solid fa-file"></i> The Register
                </a>
             </li>
          </ul>
@@ -171,12 +165,6 @@
       <a href="https://heraldicon.org/" class="button inline">
          <i class="fa-solid fa-shield-heart"></i> Heraldicon
       </a>
-      <a href="https://ebay.co.uk/" class="button inline">
-         <i class="fa-brands fa-ebay"></i> Ebay
-      </a>
-      <a href="https://amazon.co.uk/" class="button inline">
-         <i class="fa-brands fa-amazon"></i> Amazon
-      </a>
       <a href="https://outlook.com/" class="button inline">
          <i class="fa-brands fa-microsoft"></i> Outlook
       </a>
@@ -189,6 +177,29 @@
       <a href="https://www.keychron.com/pages/k4-keyboard-user-manual" class="button inline">
          <i class="fa-regular fa-file"></i> k4 Manual
       </a>
+   </div>
+
+   <div class=" paper smaller">
+      <h2>Shopping</h2>
+      <a href="https://ebay.co.uk/" class="button inline">
+         <i class="fa-brands fa-ebay"></i> Ebay
+      </a>
+      <a href="https://amazon.co.uk/" class="button inline">
+         <i class="fa-brands fa-amazon"></i> Amazon
+      </a>
+      <a href="https://nothing.tech/" class="button inline">
+         <i class="fa-regular fa-file"></i> Nothing Tech
+      </a>
+      <a href="https://www.lamy.com/en-gb" class="button inline">
+         <i class="fa-regular fa-file"></i> Lamy Pens
+      </a>
+      <a href="https://uk.bookshop.org/shop/paperxclips" class="button inline">
+         <i class="fa-regular fa-book-open"></i> bookshop.org
+      </a>
+      <a href="https://www.etsy.com/uk/" class="button inline">
+         <i class="fa-brands fa-etsy"></i> Etsy
+      </a>
+
    </div>
 </div>
 <script src="https://kit.fontawesome.com/76a60cf7f0.js" crossorigin="anonymous"></script>

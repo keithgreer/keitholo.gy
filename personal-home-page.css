@@ -59,6 +59,11 @@ body {
     padding: 0 1rem;
 }
 
+.toplinks {
+    margin-top:2rem;
+    margin-bottom:1rem;
+}
+
 .date-time {
     clear: both;
     margin: 1rem;
