@@ -5,3 +5,5 @@
 h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover  {
     color: #0070c0;
 }
+
+.button { border:1px solid #f3f5f1;}

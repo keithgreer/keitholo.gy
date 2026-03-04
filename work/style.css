@@ -1,7 +1,11 @@
+body {
+  background-image: linear-gradient(to top, #f3f5f1 0%, #fefefe 100%);
+}
+
 .date-time, a.button:hover, a.button.dark {
-  background: #333333;
+  background: #555555;
 }
 
 h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover  {
-  color: #333333;
+  color: #555555;
 }
