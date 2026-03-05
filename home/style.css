@@ -2,15 +2,15 @@ body {
     background:#e5f0f8;
 }
 
-.date-time, a.button.dark {
+.date-time, a.button.dark, a.toggle-link.active {
     background: #0070c0;
 }
 
-h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator {
+h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator, a.toggle-link {
     color: #0064ac;
 }
 
-span.seperator {
+span.seperator, a.toggle-link {
     border-color:#0064ac;
 }
 

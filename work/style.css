@@ -2,15 +2,15 @@ body {
   background:#e7eff0;
 }
 
-.date-time, a.button.dark {
+.date-time, a.button.dark, a.toggle-link.active {
   background: #15616d;
 }
 
-h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator {
+h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator, a.toggle-link {
   color: #001524;
 }
 
-span.seperator {
+span.seperator, a.toggle-link {
   border-color:#5b9098;
 }
 
@@ -26,4 +26,10 @@ a.button.dark:hover, .a.button.inline.dark:hover {
   border-color:#5b9098!important;
   background: #15616d;
   color:#ffffff;
+}
+
+@media only screen and (min-width: 700px) {
+  .envlope {
+    padding-top: 12vh;
+  }
 }

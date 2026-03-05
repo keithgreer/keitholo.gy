@@ -57,7 +57,7 @@ function displayCurrentTime(elementId) {
     document.title = formattedTime;
 }
 
-//
+// Open tabs
 document.addEventListener("DOMContentLoaded", function () {
     const greetingElement = document.getElementById("greeting");
     if (greetingElement) {
@@ -71,4 +71,32 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(function () {
         displayCurrentTime("current-time");
     }, 60000);
+});
+
+// Open tabs
+document.addEventListener("click", function (e) {
+    const link = e.target.closest('a[href^="#"].toggle-link');
+    if (!link) return;
+
+    const id = link.getAttribute("href").substring(1);
+    const target = document.getElementById(id);
+    if (!target) return;
+
+    e.preventDefault();
+
+    // Close all panels
+    document.querySelectorAll(".toggle-panel").forEach(function (panel) {
+        panel.classList.remove("open");
+    });
+
+    // Remove active class from all links
+    document.querySelectorAll(".toggle-link").forEach(function (a) {
+        a.classList.remove("active");
+    });
+
+    // Open selected panel
+    target.classList.add("open");
+
+    // Mark clicked link active
+    link.classList.add("active");
 });

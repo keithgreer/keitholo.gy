@@ -60,7 +60,7 @@ body {
 }
 
 .paper {
-    padding: 0.25rem 1rem;
+    padding: 0.75rem 1rem;
 }
 
 .date-time {
@@ -71,8 +71,6 @@ body {
     border-radius: 10px;
     color: #ffffff;
 }
-
-
 
 h1 {
     font-size: 2.25rem;
@@ -135,22 +133,24 @@ p a:hover, ul.list-dash a:hover {
     text-decoration-color: rgba(0, 112, 192, 1);
 }
 
-span.seperator {
+span.seperator, a.toggle-link {
     background: #fff;
     text-decoration: none;
     padding: 0.5rem 0.75rem;
     border-radius: 10px;
     color: #000000;
     margin-bottom: 0.5rem;
-    border-top:1px solid #000000;
-    border-right:none;
-    border-bottom:1px solid #000000;
-    border-left:3px solid #000000;
+    border:1px solid #000000;
     font-weight:bold;
     margin-right: 0.25rem;
 }
 span.seperator::after{
-    content: " →";
+    content: " ❯";
+}
+
+a.toggle-link.active{
+    background:#000000;
+    color:#ffffff;
 }
 
 a.button {
@@ -206,6 +206,13 @@ hr {
     font-size:0.8rem;
 }
 
+.toggle-panel {
+    display: none;
+}
+
+.toggle-panel.open {
+    display: block;
+}
 
 @media only screen and (min-width: 400px) {
     h1 {
@@ -228,7 +235,7 @@ hr {
     }
 
     .envlope {
-        padding-top: 6vh;
+        padding-top: 8vh;
     }
 
     .block {
