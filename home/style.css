@@ -1,11 +1,29 @@
-.date-time, a.button:hover, a.button.dark {
+body {
+    background:#e5f0f8;
+}
+
+.date-time, a.button.dark {
     background: #0070c0;
 }
 
 h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator {
-    color: #0070c0;
+    color: #0064ac;
 }
 
 span.seperator {
-    border-color:#0070c0;
+    border-color:#0064ac;
+}
+
+a.button:hover, .a.button.inline:hover, .search input[type=text]:hover, .search input[type=text]:focus {
+    border-color:#0064ac!important;
+}
+
+a.button:hover, .a.button.inline:hover {
+    border-color:#ffffff;
+}
+
+a.button.dark:hover, .a.button.inline.dark:hover {
+    border-color:#0064ac!important;
+    background: #15616d;
+    color:#ffffff;
 }

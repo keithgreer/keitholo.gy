@@ -1,11 +1,29 @@
 body {
-  background-image: linear-gradient(to top, #f3f5f1 0%, #fafafa 100%);
+  background:#e7eff0;
 }
 
-.date-time, a.button:hover, a.button.dark {
-  background: #555555;
+.date-time, a.button.dark {
+  background: #15616d;
 }
 
-h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover  {
-  color: #555555;
+h1, h2, ul.list-dash li::before,  a.button, .a.button.inline, a.button.dark:hover, span.seperator {
+  color: #001524;
+}
+
+span.seperator {
+  border-color:#5b9098;
+}
+
+a.button:hover, .a.button.inline:hover, .search input[type=text]:hover, .search input[type=text]:focus {
+  border-color:#5b9098!important;
+}
+
+a.button:hover, .a.button.inline:hover {
+  border-color:#ffffff;
+}
+
+a.button.dark:hover, .a.button.inline.dark:hover {
+  border-color:#5b9098!important;
+  background: #15616d;
+  color:#ffffff;
 }

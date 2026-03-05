@@ -16,6 +16,7 @@ body {
     line-height: inherit;
     background: #fafafa;
     color: #2B2B2B;
+
 }
 
 .envlope {
@@ -41,13 +42,16 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #b2b2b2;
+    border-top:none;
+    border-right:none;
+    border-bottom:1px solid #ffffff;
+    border-left:none;
     border-radius: 10px;
 }
 
 .search input[type=text]:focus, .search input[type=text]:hover {
     outline: none;
-    border: 1px solid #2b2b2b !important;
+    border-color: #000000;
 }
 
 .search input[type=submit] {
@@ -56,12 +60,7 @@ body {
 }
 
 .paper {
-    padding: 0 1rem;
-}
-
-.toplinks {
-    margin-top:2rem;
-    margin-bottom:1rem;
+    padding: 0.25rem 1rem;
 }
 
 .date-time {
@@ -144,9 +143,11 @@ span.seperator {
     color: #000000;
     margin-bottom: 0.5rem;
     border-top:1px solid #000000;
-    border-left:3px solid #000000;
+    border-right:none;
     border-bottom:1px solid #000000;
+    border-left:3px solid #000000;
     font-weight:bold;
+    margin-right: 0.25rem;
 }
 span.seperator::after{
     content: " →";
@@ -156,15 +157,19 @@ a.button {
     background: #fff;
     text-decoration: none;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     border-radius: 10px;
     color: #000000;
     margin-bottom: 0.5rem;
-    border:1px solid #f3f5f1;
+    border-top:none;
+    border-right:none;
+    border-bottom:1px solid #ffffff;
+    border-left:none;
 }
 
 a.button.inline {
     display: inline-block;
+    margin-right: 0.25rem;
 }
 
 a.button.dark {
@@ -173,8 +178,7 @@ a.button.dark {
 }
 
 a.button:hover {
-    background: #000000;
-    color: #ffffff;
+
 }
 
 a.button.dark:hover {
