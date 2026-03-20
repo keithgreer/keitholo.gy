@@ -147,6 +147,9 @@ span.seperator, a.toggle-link {
 span.seperator::after{
     content: " ❯";
 }
+a.toggle-link {
+    line-height: 2.5rem;
+}
 
 a.toggle-link.active{
     background:#000000;
