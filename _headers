@@ -8,7 +8,7 @@
  X-Content-Type-Options: nosniff
  Referrer-Policy: no-referrer
  Permissions-Policy: fullscreen=(self)
- Content-Security-Policy: base-uri 'self'; default-src https://keithology.me https://*.fontawesome.com; style-src https://keithology.me 'self' 'unsafe-inline' https://*.fontawesome.com; script-src https://keithology.me 'self' https://*.fontawesome.com https://*.simpleanalyticscdn.com; img-src https://keithology.me  'self' https://*.simpleanalyticscdn.com;
+ Content-Security-Policy: base-uri 'self'; default-src https://keithology.me https://*.fontawesome.com https://*.simpleanalyticscdn.com; style-src https://keithology.me 'self' 'unsafe-inline' https://*.fontawesome.com; script-src https://keithology.me 'self' https://*.fontawesome.com https://*.simpleanalyticscdn.com; img-src https://keithology.me  'self' https://*.simpleanalyticscdn.com;
 
 
 /*.css
