@@ -64,6 +64,10 @@ p.spacer {
   margin-bottom: 2rem;
 }
 
+.sm {
+  font-size:0.8rem
+}
+
 ul {
     list-style: none;
     padding-left: 0.5rem;
