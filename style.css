@@ -48,6 +48,14 @@ h2 {
 }
 
 p {
+  max-width: 34rem; 
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+p.spacer {
   min-height: 5vh;
   max-width: 34rem; 
   font-size: 1.1rem;
